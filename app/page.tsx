@@ -1,13 +1,16 @@
-import { Hello } from "@/components/animated/Hello";
+import Hello from "@/components/animated/Hello";
+import Interests from "@/components/animated/Interests";
 import database from "@/utils/database";
 
 const Home = async () => {
-  const data = await database("project").select("*");
+  const interestData = await database("interest").select("*");
+  const projectData = await database("project").select("*");
   // TODO: render
-  console.log(data);
+  console.log(projectData);
   return (
     <div>
       <Hello />
+      <Interests interestData={interestData} />
     </div>
   );
 };

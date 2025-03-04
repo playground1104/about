@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className="bg-neutral-900 text-white w-screen min-h-screen">
+      <body className="bg-neutral-900 text-white w-full min-h-screen px-32">
         {children}
       </body>
     </html>

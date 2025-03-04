@@ -1,13 +1,12 @@
-import { FaGithub } from "react-icons/fa";
-
 import ExternalLink from "@/components/ExternalLink";
+import icons from "@/utils/icons";
 
 const Links = () => {
   return (
     <div>
       <h2>링크 모음</h2>
       {/* test purpose, will be replaced later */}
-      <ExternalLink url="https://github.com/eunwoo1104" icon={<FaGithub />}>
+      <ExternalLink url="https://github.com/eunwoo1104" icon={icons.github}>
         GitHub
       </ExternalLink>
       <p>

@@ -1,4 +1,4 @@
-import { HiOutlineExternalLink } from "react-icons/hi";
+import icons from "@/utils/icons";
 
 interface ExternalLinkProps {
   url: string;
@@ -13,7 +13,7 @@ const ExternalLink: React.FC<ExternalLinkProps> = ({
   icon,
   linkType = "button",
 }) => {
-  if (!icon) icon = <HiOutlineExternalLink />;
+  if (!icon) icon = icons.externalLink;
   let aClassName =
     "inline-flex justify-center items-baseline hover:opacity-75 gap-x-[1px]";
   if (linkType === "paragraph") aClassName += " underline";

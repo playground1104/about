@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "motion/react";
 
-export const Hello = () => (
+const Hello = () => (
   <div className="w-fit h-screen mx-auto flex flex-col items-center justify-center space-y-1.5">
     <motion.div
       initial={{ opacity: 0, y: 15 }}
@@ -31,3 +31,5 @@ export const Hello = () => (
     </motion.p>
   </div>
 );
+
+export default Hello;

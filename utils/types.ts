@@ -11,3 +11,9 @@ export interface Project {
   description: string;
   links: Link[];
 }
+
+export interface Interest {
+  name: string;
+  description: string;
+  icon: string | null;
+}
