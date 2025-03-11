@@ -8,6 +8,8 @@ export interface Project {
   id: number;
   name: string;
   role: string;
+  stack: string[];
+  brief: string;
   description: string;
   links: Link[];
 }

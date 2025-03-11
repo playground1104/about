@@ -2,7 +2,7 @@ import icons from "@/utils/icons";
 
 interface ExternalLinkProps {
   url: string;
-  children: string | React.ReactNode;
+  children?: string | React.ReactNode;
   icon?: React.ReactElement;
   linkType?: "button" | "paragraph";
 }
@@ -25,7 +25,7 @@ const ExternalLink: React.FC<ExternalLinkProps> = ({
       className={aClassName}
     >
       {linkType === "button" ? null : children}
-      <span className="relative top-[2px]">{icon}</span>
+      <span className={children ? "relative top-[2px]" : ""}>{icon}</span>
       {linkType === "button" ? children : null}
     </a>
   );
