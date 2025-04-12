@@ -15,7 +15,7 @@ const ExternalLink: React.FC<ExternalLinkProps> = ({
 }) => {
   if (!icon) icon = icons.externalLink;
   let aClassName =
-    "inline-flex justify-center items-baseline hover:opacity-75 gap-x-[1px]";
+    "inline-flex justify-center items-baseline hover:opacity-75 gap-x-[3px]";
   if (linkType === "paragraph") aClassName += " underline";
   return (
     <a

@@ -1,5 +1,2 @@
-# Portfolio
-TBA
-## TODO
-- [ ] Allow editing via web console
-- [ ] Responsive design
+# About Me
+Temporary about me website.
