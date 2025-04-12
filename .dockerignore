@@ -1,0 +1,6 @@
+.github
+.nvmrc
+.idea
+.next
+node_modules
+README.md
