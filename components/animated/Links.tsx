@@ -33,10 +33,10 @@ const Links = () => (
       Résumé (Unfinished)
     </ExternalLink>
     <ExternalLink
-      url="https://www.instagram.com/silvercow1104/"
+      url="https://www.instagram.com/im_not_cha/"
       icon={icons.insta}
     >
-      silvercow1104
+      im_not_cha
     </ExternalLink>
     <ExternalLink
       url="https://discord.com/users/288302173912170497"
