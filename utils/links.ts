@@ -16,6 +16,10 @@ const quickLinks: { [key: string]: QuickLink } = {
     url: "https://solved.ac/profile/sions0411",
     name: "solved.ac Profile",
   },
+  gdev: {
+    url: "https://g.dev/eunwoo1104",
+    name: "Google Developer Program",
+  },
 };
 
 export default quickLinks;
